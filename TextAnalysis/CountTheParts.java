@@ -13,6 +13,7 @@ public class CountTheParts
         this.str = str;
     }
   
+  //method counts vowels
   public int getVowels()
   {
     int vowels = 0;
@@ -40,6 +41,7 @@ public class CountTheParts
     return vowels;
   } 
 
+  //method counts letter
   public int getLetters()
   {
     int ind = 0;
@@ -74,6 +76,7 @@ public class CountTheParts
     return letters;
   }
   
+  //method counts spaces
   public int getSpaces()
   {
     int count = 0;
@@ -92,6 +95,7 @@ public class CountTheParts
     return count;
   }
   
+  //method counts punctuation
   public int getPunc()
   {
     int punc = 0;
@@ -119,6 +123,7 @@ public class CountTheParts
     return punc;
   } 
   
+  //method counts words
   public int getWords()
   {
     int count=0;
@@ -138,6 +143,7 @@ public class CountTheParts
     return count;
   }
   
+  //method returns average length of words
   public double getAvgLen()
   {
     double avg = 0;
