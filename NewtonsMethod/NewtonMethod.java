@@ -4,7 +4,7 @@
  * 
  * Newton's Method Project
  * 
- * while loop in method
+ * Determines square root of given number using Newton's method
 **/
 
 public class NewtonMethod
@@ -22,6 +22,8 @@ public class NewtonMethod
       {
         lastguess = nextguess;
       }
+      
+      //Newton's method
       nextguess = .5*((sqrtnum/lastguess)+lastguess);
       System.out.print(nextguess + ", ");
     }
