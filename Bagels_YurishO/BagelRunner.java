@@ -20,8 +20,10 @@ public class BagelRunner
     */
     
     int tries = 0;
+    //Description of game
     System.out.println("The goal of the game is to guess the correct number that the computer randomly generates(no repeating digits nor zeros). You will be given a hint after each guess based on the following rules. \n Rules for hints: \n Bagel - guess number is neither in the secret number nor the correct position \n Pico - guess number is in the secret number but in wrong place \n Fermi - guess number is in the secret number and in the correct place \n Guess the number in 5 guesses to win!");
     
+    //Propmts first guess
     System.out.println("Enter a 3 digit number(no repeating digits nor zeros): ");
     Scanner in = new Scanner(System.in);
     int resp = in.nextInt();
@@ -29,6 +31,7 @@ public class BagelRunner
     System.out.println(response);
     tries++;
     
+    //Prompts user to guess another 3-digit number if it isn't all correct 
     while (response.indexOf("Fermi Fermi Fermi") == -1)
     {
       System.out.println("Enter a 3 digit number(no repeating digits nor zeros): ");
