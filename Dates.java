@@ -1,3 +1,10 @@
+/**
+ * @author Olivia Yurish
+ * @since 8/30/2020
+ *
+ * determines if one date is later than another date
+**/
+
 import java.util.Scanner;
 
 public class Dates
