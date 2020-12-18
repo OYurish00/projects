@@ -4,7 +4,7 @@
  * 
  * Newton's Method Project Runner
  * 
- * while loop in method
+ * Determines square root of given number using Newton's method
 **/
 
 import java.util.Scanner;
