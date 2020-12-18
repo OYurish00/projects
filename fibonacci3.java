@@ -19,7 +19,7 @@ public class fibonacci3
     fibonacci.put("1", 1);
     
     int goal =1;
-    //exit strategie: type -1 to stop program
+    //exit strategy: type -1 to stop program
     while (goal != -1)
     {
       //asks user for end digits which is set to goal variable
